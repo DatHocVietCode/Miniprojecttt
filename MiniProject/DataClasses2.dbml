@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Thu3" Class="DataClasses2DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localdb)\ProjectModels;Initial Catalog=Thu3;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False" SettingsObjectName="MiniProject.Properties.Settings" SettingsPropertyName="Thu3ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.QuanLyCuaHang" Member="QuanLyCuaHangs">
+    <Type Name="QuanLyCuaHang">
+      <Column Name="Seri" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Price" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Producer" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="DTProduct" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DTBought" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

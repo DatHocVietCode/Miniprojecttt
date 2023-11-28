@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Thu3" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localdb)\ProjectModels;Initial Catalog=Thu3;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False" SettingsObjectName="MiniProject.Properties.Settings" SettingsPropertyName="Thu3ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.QLNhanVien" Member="QLNhanViens">
+    <Type Name="QLNhanVien">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Tên" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Phòng" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="LươngperHour" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Tuổi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HourWork" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TypeofEmployee" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Cua Hang]" Member="Cua_Hang" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
